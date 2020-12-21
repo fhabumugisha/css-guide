@@ -12,6 +12,8 @@
     position: fixed;
     box-sizing: border-box;
     z-index: 1;
+    left: 0;
+    top: 0;
   
   }
   
