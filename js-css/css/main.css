@@ -1,7 +1,6 @@
 
 #product-overwiew {
-  
-  background: linear-gradient(to top, rgba(80, 68, 18, 0.6) 10%, transparent),
+    background: linear-gradient(to top, rgba(80, 68, 18, 0.6) 10%, transparent),
     url("../images/background.jpg") left 10% bottom 82%/cover no-repeat border-box, #ff1b68;
   
   width: 100%;
@@ -114,4 +113,3 @@
   color: white;
   margin: 2rem;
 }
-
