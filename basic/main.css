@@ -11,6 +11,11 @@
   font-family: "Oswald", sans-serif;
 }
 
+.plan__list{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
 .plan {
   background: #d5ffdc;
   text-align: center;
