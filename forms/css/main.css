@@ -1,0 +1,152 @@
+
+#product-overwiew {
+    background: linear-gradient(to top, rgba(80, 68, 18, 0.6) 10%, transparent),
+    url("../images/background.jpg") left 10% bottom 82%/cover no-repeat border-box, #ff1b68;  
+  width: 100%;
+  height: 50vh;  
+  
+  position: relative;
+  
+}
+
+#product-overwiew h1 {
+  color: white;
+  font-family: "Oswald", sans-serif;
+  position: absolute;
+  bottom: 1%;
+  left: 3%;
+  font-size: 2rem;
+}
+
+@media(min-width: 40rem) and (min-height:40rem){
+  #product-overwiew h1 {    
+    font-size: 3rem;
+    bottom: 1%;
+  }
+  #product-overwiew {
+    height: 75vh;
+    background-position: 50% 35%;
+  }
+}
+
+
+
+.section-title{
+  color: #2ddf5c;
+  text-align: center;
+}
+
+
+.plan {
+  background: #d5ffdc;
+  text-align: center;
+  padding: 1rem;
+  margin: 0.5rem 0;
+
+  width: 100%;
+  
+}
+.plan__annotation {
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5);
+  border-radius: 8px;
+  color: #19b84c;
+  background-color: white;
+  padding: 0.3rem;
+}
+
+.plan__title {
+  color: #0e4f1f;
+}
+.plan__price {
+  color: rgb(129, 128, 128);
+}
+.plan--highlighted {
+  background-color: #19b84c;
+  color: white;
+  /* box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5); */
+}
+
+.plan--highlighted .plan__title {
+  color: white;
+}
+.plan--highlighted .plan__price {
+  color: #0e4f1f;
+}
+.plan__features {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.plan__feature {
+  margin: 0.5rem 0;
+}
+
+
+@media(min-width: 40rem){
+  .plan__list{
+    width: 100%;    
+    text-align: center;
+} 
+  .plan {
+    display: inline-block;
+    width: 30%;
+    vertical-align: middle;
+    min-width: 12.5rem;
+    max-width: 25rem;
+  }
+  .plan--highlighted {   
+     box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5); 
+  }
+  
+}
+
+#key-features {
+  background: #ff1b68;
+  margin-top: 3.1rem;
+  padding: 1rem;
+}
+
+.key-feature__list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-align: center;
+}
+
+
+.key-feature__description {
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  font-size: 1.3rem;
+}
+
+.key-feature__image {
+  background: #ffcede;
+  width: 128px;
+  height: 128px;
+  border: 2px solid #424242;
+  border-radius: 50%;
+  margin: auto;
+  padding: 1.3rem;
+}
+.section-title {
+  color: #2ddf5c;
+  text-align: center;
+}
+
+#key-features .section-title {
+  color: white;
+  margin: 2rem;
+}
+
+
+@media(min-width : 40rem){ 
+  .key-feature {
+    display: inline-block;
+    vertical-align: top;
+    max-width: 25rem;
+    width: 30%;
+  }
+}
